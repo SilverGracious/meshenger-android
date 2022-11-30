@@ -20,11 +20,11 @@ Instead of MAC addresses, IPv4/IPv6 addresses or DNS names (e.g. `hostname.local
 
 ## Randomised MAC Addresses
 
-Most Android version these days try to prevent identification of phones by changing the MAC address. The MAC address might be randomly initialised different for each WiFi network, change on every connect or after some timeout (IPv6 Privacy Extensions). This is a major drawback for Meshenger, since connections cannot be established anymore after the address changes. If this is an issue for you, then you need to try to disable MAC address randomisation for a paritcular network. The Adnroid Developer Settings let you disable it, but this might be not what you want.
+Most Android version these days try to prevent identification of phones by changing the MAC address. The MAC address might be randomly initialised different for each WiFi network, change on every connect or after some timeout (IPv6 Privacy Extensions). This is a major drawback for Meshenger, since connections cannot be established anymore after the address changes. If this is an issue for you, then you need to try to disable MAC address randomisation for a paritcular network. The Android Developer Settings let you disable it, but this might be not what you want.
 
 ## WebRTC
 
-Meshenger uses [WebRTC](https://webrtc.org/), a well-build, tested and mostly documented standard for video- and audio communication. It handles audio and video WebRTC also supports NAT traversal via ICE-Servers, but this feature has been turned off for Meshenger.
+Meshenger uses [WebRTC](https://webrtc.org/), a well-build, tested and mostly documented standard for video- and audio communication. WebRTC also supports NAT traversal via ICE-Servers, but this feature has been turned off for Meshenger.
 
 Resources:
 
